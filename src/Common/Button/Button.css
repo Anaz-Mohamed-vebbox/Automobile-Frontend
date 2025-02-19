@@ -1,0 +1,313 @@
+.Tablebtn{
+    background-color: var(--lightsandle);
+    border: 2px solid var(--lightsandle);
+    text-decoration: underline;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.Table-btn{
+    background-color: var(--lightsandle);
+    border: 2px solid var(--lightsandle);
+    font-size: 1em;
+    color: var(--green);
+    cursor: pointer;
+
+}
+.Table-btn-warning{
+    background-color: var(--lightsandle);
+    font-size: 1em;
+    color: var(--red);
+    border: 1px solid var(--red);
+    padding: 2%;
+    cursor: pointer;
+
+}
+.Table-btn-completed{
+    background-color: var(--lightsandle);
+    border: 2px solid var(--lightsandle);
+    font-size: 1em;
+    color: var(--green);
+    cursor: pointer;
+
+}
+.SearchBar-Sort-icon{
+    background-color: var(--white);
+    border: 2px solid var(--white);
+    text-decoration: underline;
+    font-size: 1em;
+    color: var(--secondary);
+    cursor: pointer;
+
+}
+.HeadComp-SwapVertIcon{
+    color: var(--secondary);
+    background-color: var(--white);
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* box-shadow: 0px 0px 5px var(--lightgray); */
+    height: 35px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 2px;
+    width: 35px;
+    cursor: pointer;
+
+}
+.HeadComp-Group-Button{
+    color: var(--secondary);
+    background-color: var(--white);
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 35px;
+    min-width: 120px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 10px;
+    width: 10%;
+    cursor: pointer;
+}
+.Form-Update-Button{
+    color: var(--secondary);
+    background-color: var(--white);
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 35px;
+    min-width:150px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    width: 16%;
+    cursor: pointer;
+
+}
+
+.HeadComp-Group-Button-color{
+    color: var(--white);
+    background-color: var(--secondary);
+
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 35px;
+    min-width: 120px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 10px;
+    width: 10%;
+    cursor: pointer;
+
+}
+
+.DateFilter-Submit-Button{
+    color: var(--white);
+    background-color: var(--secondary);
+
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: 27px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 10px;
+    width: 80px;
+    cursor: pointer;
+
+}
+
+
+/* .HeadComp-Group-Button:focus{
+    background-color: var(--secondary);
+    color: var(--white);
+} */
+.Card-button-text-three{
+    border: 0px ;
+    color: var(--white);
+    text-decoration: underline;
+    padding-top: 5px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    display: block;
+    cursor: pointer;
+
+}
+.Form-Submit-Button{
+    background-color: var(--secondary);
+    color: var(--white);
+    border: 0px solid var(--white);
+    height: 27px;
+    padding: 3px 10px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 3px;
+    min-width:50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Popup-Submit-Button{
+    background-color: var(--secondary);
+    color: var(--white);
+    border: 0px solid var(--white);
+    height: 27px;
+    padding: 3px 10px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 3px;
+    min-width:50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Form-Submit-Button-Label{
+    background-color: var(--secondary);
+    color: var(--white);
+    border: 0px solid var(--white);
+    height: 27px;
+    padding: 3px 10px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 3px;
+    min-width:50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.Form-Submit-Button-two{
+    background-color: var(--secondary);
+    color: var(--white);
+    border: 0px solid var(--white);
+    height: 25px;
+    padding: 3px 10px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 3px;
+    min-width:50px;
+    width: 80px;
+    cursor: pointer;
+
+}
+.Form-Clear-Button{
+    outline: 1px solid var(--secondary);
+    border: 0px solid var(--white);
+    background-color: var(--white);
+    height: 25px;
+    width: 80px;
+    padding: 4px 10px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.Photo-button{
+    height: 35px;
+    width: 46%;
+    outline: 1px solid var(--secondary);
+    border: 0px solid var(--white);
+    background-color: var(--white);
+    border-radius: 3px;
+    color:var(--secondary);
+    cursor: pointer;
+
+
+}
+
+.Close-Group{
+    height: 35px;
+    width: 46%;
+    padding: 7px;
+    outline: 1px solid var(--secondary);
+    border: 0px solid var(--white);
+    background-color: var(--white);
+    border-radius: 3px;
+    color:var(--secondary);
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.TakePhoto-Capture-Button{
+    height: 35px;
+    width: 46%;
+    padding: 7px;
+    outline: 1px solid var(--secondary);
+    border: 0px solid var(--white);
+    background-color: var(--white);
+    border-radius: 3px;
+    color:var(--secondary);
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.Alert-view-btn{
+    height: 28px;
+    width: 46%;
+    padding: 7px;
+    outline: 1px solid var(--secondary);
+    border: 0px solid var(--white);
+    background-color: var(--white);
+    border-radius: 3px;
+    color:var(--secondary);
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.TakePhoto-Capture-submit{
+    height: 35px;
+    width: 46%;
+    padding: 7px;
+    background-color: var(--secondary);
+    border: 0px solid var(--white);
+    border-radius: 3px;
+    color:white;
+    font-size: 13px;
+    cursor: pointer;
+
+
+}
+.Update-Submit-Button{
+    background-color: var(--secondary);
+    color: var(--white);
+    border: 0px solid var(--white);
+    height: 35px;
+    padding: 3px 10px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 3px;
+    min-width:50px;
+    width: 160px;
+    cursor: pointer;
+}
+.Update-cancel-Button{
+    outline: 1px solid var(--secondary);
+    border: 0px solid var(--white);
+    background-color: var(--white);
+    height: 35px;
+    width: 160px;
+    padding: 4px 10px 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .HeadComp-Group-Button{
+        width: 50%;
+        height: 40px;
+    }    
+    .Popup-Submit-Button{
+        width: 40%;
+        height: 35px;
+    }
+    .HeadComp-Group-Button-color{
+        width: 50%;
+        height: 40px;
+    }
+    .TakePhoto-Capture-submit{
+        width: 90%;
+    }
+    .TakePhoto-Capture-Button{
+        width: 90%;
+    }
+
+  }

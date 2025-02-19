@@ -1,0 +1,74 @@
+
+.Card-Paragraph-text{
+    color:var(--white);
+    font-size: 15px;
+}
+.Card-Paragraph-text-two{
+    color: var(--white);
+    font-size: 25px;
+    padding-top: 15px;
+}
+.Notify-ALert-red{
+    color: var(--red);
+    font-size: 13px;
+}
+.Collection-Count-title-Paragraph{
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: var(--grey);
+}
+.Collection-Count-Paragraph{
+    color: var(--secondary);
+    font-size: 15px;
+    text-align: center;
+}
+.Collection-Status-Paragraph{
+    font-size: 12px;
+    text-align: center;
+}
+.ViewInvestmentComp-StatusCardbar-Count-Paragraph{
+    color: var(--white);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+.ViewInvestmentComp-StatusCardbar-DescriptionClassName-Paragraph{
+    color: var(--white);
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+}
+.StatusCardTwo-Amount-Paragraph{
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Card-Paragraph-text{
+        color:var(--white);
+        font-size: 13px;
+    }
+    .Card-Paragraph-text-two{
+        color: var(--white);
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .Collection-Count-Paragraph{
+        color: var(--secondary);
+        font-size: 14px;
+        text-align: center;
+    }
+    .Collection-Status-Paragraph{
+        font-size: 12px;
+        text-align: center;
+    }
+    .StatusCardTwo-Amount-Paragraph{
+        font-size: 12px;
+    }
+    .Collection-Count-title-Paragraph{
+        font-size: 11px;
+    }
+    .Collection-Count-title-Paragraph{
+        padding: 0px;
+    }
+  }

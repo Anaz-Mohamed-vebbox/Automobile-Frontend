@@ -1,0 +1,45 @@
+.InvoiceProcessComp-Down{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: var(--lightblue);
+    height: 80px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 5px var(--lightgray);
+    border-radius: 10px;
+
+}
+
+.Button-blue-two{
+    color:var(--white);
+    background-color: var(--secondary);
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+}
+.InvoiceProcessComp-completed-btn{
+    width: 97%;
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+.Download-Icon{
+    background-color: var(--secondary);
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 5px;
+}
+.Download-div{
+    display: flex;
+    justify-content: end;
+    width: 96%;
+    margin: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .InvoiceProcessComp-Down{
+        height: 150px;
+        display: inline;
+        text-align: center;
+    }
+  }

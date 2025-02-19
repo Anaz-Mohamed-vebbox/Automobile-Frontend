@@ -1,0 +1,101 @@
+:root{
+    --primary:#37393D;
+    --secondary:#133E87;
+    --blue:#897CF7;
+    --lightgreen:#1EC6CB;
+    --grey:grey;
+    --white:#fff;
+    --lightgray:rgb(199, 195, 195);
+    --lightsandle:#FFF9F5;
+    --whiteSome:whitesmoke;
+    --green:rgb(0, 244, 0);
+    --red:red;
+    --lightblue:#F8FCFF
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tableScroll-container{
+  height: 100%;
+  overflow: scroll;
+}
+
+.tableScroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.mgl{
+  margin-left: 10px;
+}
+
+.ViewAgentComponent-Table-Div{
+  height: 70vh;
+  width: 70%;
+  overflow: scroll;
+}
+
+
+
+.Component-Table-Div{
+  height: 45vh;
+  width: 95%;
+  overflow: scroll;
+}
+
+.InvoiceProcessComp-table{
+  display: flex;
+  justify-content: center;
+}
+.ViewAgentComponent-Table-Div::-webkit-scrollbar{
+  display: none;
+}
+.Component-Table-Div::-webkit-scrollbar{
+  display: none;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.mgt{
+  margin-top: 10px;
+}
+
+.pd{
+  padding: 7px;
+}
+.mg{
+  margin: 10px;
+}
+
+.InvoiceProcessComp-Down-main{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .ViewAgentComponent-Table-Div{
+      height: 50vh;
+      width: 83vw;
+      overflow: scroll;
+  }
+  .Component-Table-Div{
+    height: 40vh;
+    width: 95%;
+    overflow: scroll;
+    }
+  .InvoiceProcessComp-Down-main{
+    margin-top: 5px;
+  }
+}
+
+
+
+

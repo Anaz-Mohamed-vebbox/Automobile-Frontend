@@ -1,0 +1,175 @@
+.CommonTable {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 100%;
+  border-spacing: 0px;
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--white);
+  font-family: Arial, sans-serif;
+  border-collapse: separate;
+  border-spacing: 0px 15px;
+}
+
+
+/* .CommonTable-Spacing-row {
+  visibility: hidden;
+  font-size: 0px;
+} */
+.AgeInput{
+  border: 2px solid var(--white);
+  text-align: center;
+  width: 100%;
+}
+.CommonTable::-webkit-scrollbar {
+  display: none;
+}
+.Tablebtntd {
+  height: 40px;
+}
+.CommonTableth {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.CommonTable th {
+  background: var(--secondary);
+  font-size: 11px;
+  color: var(--white);
+  text-align: center;
+  height: 7vh;
+  z-index: 2;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid var(--white);
+}
+.CommonTable th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.CommonTable th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.CommonTable td {
+  color: var(--black);
+  background-color: var(--white);
+  padding: 10px;
+  min-width: 130px;
+  text-align: center;
+  font-size: 0.8em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 15vw;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid var(--lightgray);
+}
+
+.CommonTable td:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.CommonTable td:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.CommonTable tr {
+  height: auto;
+  /* border-radius: 5px; */
+  /* box-shadow: rgba(0, 0, 0, 0.041) 1.95px 1.95px 2.6px; */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.CommonTabletr:hover {
+  background-color: var(--white);
+  transform: scale(1);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.089) 2.95px 2.95px 3.6px;
+}
+
+
+.CommonTable td:hover {
+  background-color: #ffe6cc;
+}
+
+.CommonTable tr:hover td {
+  background-color: #ffffff;
+}
+tbody{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.059);
+}
+
+
+.TableInput{
+  border:none;
+  text-align: center;
+  box-shadow: 0px 0px 5px var(--lightgray);
+  padding: 5px;
+  width: 100px;
+}
+
+.table-save-button{
+  border:none;
+  text-align: center;
+  background-color: var(--white);
+  box-shadow: 0px 0px 5px var(--lightgray);
+  padding: 5px;
+  cursor: pointer;
+}
+.table-delete-button{
+  border:none;
+  text-align: center;
+  background-color: var(--red);
+  color:var(--white);
+  box-shadow: 0px 0px 5px var(--lightgray);
+  padding: 5px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .CommonTable {
+    font-size: 12px;
+  }
+  .CommonTable th {
+    height: 5vh;
+  }
+  .CommonTable td {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .CommonTable {
+    font-size: 10px;
+  }
+  .CommonTable th {
+    font-size: 10px;
+    height: 3vh;
+  }
+  .CommonTable td {
+    padding: 3px;
+    height: 5vh;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .CommonTable {
+    font-size: 10px;
+  border-spacing: 0px 8px;
+
+  }
+  .CommonTable th {
+    height: 50px;
+  }
+  .CommonTable td {
+    padding: 3px;
+    height: 50px;
+    font-size: 12px;
+  }
+}

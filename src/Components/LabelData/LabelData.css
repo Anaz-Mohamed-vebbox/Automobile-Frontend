@@ -1,0 +1,37 @@
+.label-DataContainer{
+ display: flex;
+ justify-content: space-between;
+ width: 50%;
+ gap: 5px;
+ /* min-width:100px; */
+
+}
+.LabelData-Value{
+    color: var(--secondary);
+    text-align: left;
+    width: 30%;
+    font-size: 15px;
+}
+.LabelData-Pair{
+    font-size: 15px;
+
+}
+@media only screen and (max-width: 990px) {
+    .LabelData-Value{
+        font-size: 14px;
+    }
+    .LabelData-Pair{
+        font-size: 14px;
+    }
+   
+
+}
+@media only screen and (max-width: 500px){
+.label-DataContainer{
+    width: 100%;
+    
+}
+.LabelData-Value{
+   width: 30%;
+}
+}

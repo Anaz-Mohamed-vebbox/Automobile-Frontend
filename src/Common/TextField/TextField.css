@@ -1,0 +1,192 @@
+  .TextField-input::placeholder {
+  color: var(--lightgray);
+  /* text-align: center; */
+  font-size: 12px;
+}
+.TextField-input {
+  outline: 1px solid var(--secondary);
+  height: 35px;
+  border: 0px solid white;
+  border-radius: 3px;
+  margin: 5px;
+  box-shadow: 0px 0px 2px var(--lightgray);
+  width: 50%;
+  padding-left: 2%;
+}
+
+.TextField-input-select {
+  outline: 1px solid var(--secondary);
+  height: 35px;
+  border: 0px solid white;
+  border-radius: 3px;
+  margin: 5px;
+  width: 100%;
+  box-shadow: 0px 0px 2px var(--lightgray);
+  padding-left: 3%;
+  color: rgba(0, 0, 0, 0.679); 
+}
+
+.TextField-Child-One {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: start;
+}
+.TextField-Child- {
+  display: flex;
+  width: 50%;
+  justify-content: start;
+  margin-left: 5px;
+}
+.TextField-Child-div {
+  display: flex;
+  width: 52%;
+  justify-content: center;
+}
+.TextField-label {
+  color: var(--black);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.TextField-Parent {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  width: 400px;
+}
+.LabelInput-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.Form-Submit-Button-Div {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  padding: 20px 5px 5px 0px;
+}
+.uplaodBtn-container {
+  display: flex;
+  width: 53%;
+  justify-content: space-around;
+  gap: 5px;
+  /* border: 2px solid black; */
+}
+.Text-field-Textarea{
+    outline: 1px solid var(--secondary);
+    /* height: 50px; */
+    padding: 10px;
+    border: 0px solid white;
+    border-radius: 3px;
+    margin: 5px;
+    width: 97%;
+    box-shadow: 0px 0px 2px var(--lightgray);
+}
+
+.TextField-Texarea-container{
+    width: 52%;
+}
+.TextField-description{
+    font-size: smaller;
+    /* font-weight: 600; */
+    opacity: 0.3;
+}
+.Mapping-InputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.TextField-container{
+  width: 100%;  
+}
+.Mapping-InputBigContainer2{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 450px;
+  flex-wrap: wrap-reverse;
+}
+.Mapping-InputBigContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 380px;
+    flex-wrap: wrap-reverse;
+}
+.Mapping-InputSmallContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 150px;
+  flex-wrap: wrap-reverse;
+}
+.TextField-RadioInnerBox{
+  display: flex;
+  gap: 20px;
+  color:var(--secondary);
+
+}
+.TextField-RadioContainer{
+  width: 52%;
+}
+.TextField-RadioInner{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+  width: 80%;
+  gap: 15px;
+
+}
+
+.TextField-input-select::-webkit-scrollbar{
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+
+  .LabelInput-container{
+     display: block;
+     flex-direction: column;
+  }
+  .TextField-Child-One {
+    width: 100%;
+    padding-bottom: 3%;
+  }
+  .TextField-input,.TextField-input-select,.Text-field-Textarea{
+
+    width: 98%;
+  }
+  .uplaodBtn-container,.TextField-Child-div,.TextField-Texarea-container{
+    width: 100%;
+  }
+  .Form-Submit-Button-Div{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    padding: 0px;
+    margin: 7px;
+    gap: 10px;
+
+  }
+  .TextField-description{
+    font-size: 10px;
+  }
+  .Form-Clear-Button{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
+  .Form-Submit-Button{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
+  .TextField-RadioContainer{
+    width: 100%;
+  }
+}
+

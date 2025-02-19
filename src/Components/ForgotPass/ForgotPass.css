@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .signIn .content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left {
+    width: fit-content;
+    padding: 10px;
+  }
+  
+  .input span {
+    display: flex;
+    align-items: center;
+    padding: 8px 8px 8px 0px;
+    /* border: 2px solid black; */
+  }
+  
+  .forget_pass {
+    text-align: end;
+  }
+  
+  .button_box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .signIn_button {
+    background-color: #0770c3;
+    width: 415px;
+    height: 42px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  
+  .signIn_button:hover {
+    background-color: #0b87e6;
+  }
+  
+  .icon {
+    color: #123262;
+    padding-left: 5px;
+  }
+  .ic_box {
+    margin-left: 1%;
+    width: auto;
+    gap: 5px;
+  }
+  .inc {
+    color: red;
+    font-size: small;
+    text-align: start;
+    padding-left: 7px;
+  }
+  
+  .error_sect {
+    padding-top: 8px;
+    text-align: start;
+  }
+  

@@ -1,0 +1,31 @@
+.ShowProductComp-main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ShowProductComp-Table-Div{
+    height: 90%;
+    width: 85%;
+    overflow: scroll;
+  }
+  .ShowProductComp-Table-Div::-webkit-scrollbar{
+    display: none;
+  }
+
+
+
+.ShowProductComp-img{
+  height: 300px;
+  width: 300px;
+}
+  @media only screen and (max-width: 600px) {
+    .ShowProductComp-Table-Div{
+        height: 80vh;
+        width: 83vw;
+        overflow: scroll;
+    }
+}

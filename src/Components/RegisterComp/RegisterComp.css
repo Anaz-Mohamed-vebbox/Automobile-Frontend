@@ -1,0 +1,35 @@
+.RegisterComp-parent{
+    display: flex;
+    justify-content: center;
+}
+.TextField-parent{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.RegisterComp-TextField{
+    width: 60%;
+    min-width: 320px;
+}
+.RegisterComp-Scanned{
+    display: flex;
+    justify-content: space-between;
+}
+.RegisterComp-Center{
+    display: flex;
+    justify-content: end;
+    width: 90%;
+}
+.Close-Scanner{
+    border: 2px solid white;
+    background-color: var(--white);
+    box-shadow: 0px 0px 4px var(--lightgray);
+    padding: 5px 10px 5px 10px;
+
+}
+
+.Scanner-btn-div{
+    display: flex;
+    justify-content: end;
+    
+}

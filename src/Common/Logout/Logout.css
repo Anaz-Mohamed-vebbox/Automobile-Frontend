@@ -1,0 +1,12 @@
+.Logout-Button{
+    width:100px;
+    text-align: center;
+    border:10px solid white;
+    box-shadow: 0px 0px 2px var(--lightgray);
+    background-color: var(--white);
+    border-radius: 5px;
+    margin: 10px 10px 0px 5px;
+    height: 45px;
+    cursor: pointer;
+}
+

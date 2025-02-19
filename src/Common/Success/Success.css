@@ -1,0 +1,9 @@
+.Success-div{
+    width: 300px;
+    height: 100px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 4px var(--white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

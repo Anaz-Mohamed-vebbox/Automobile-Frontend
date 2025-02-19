@@ -1,0 +1,12 @@
+.Click-Refresh{
+    color: rgba(0, 0, 255, 0.626);
+    font-size: small;
+    cursor: pointer;
+}
+.SomeThing-Wrong{
+    height: 65vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

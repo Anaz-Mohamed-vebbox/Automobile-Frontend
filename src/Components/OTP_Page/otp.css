@@ -1,0 +1,16 @@
+.resend_otp {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.error_section_otp {
+  padding-top: 15px;
+  text-align: start;
+}
+.incorr_otp {
+  color: red;
+  font-size: small;
+  text-align: start;
+  padding-left: 14px;
+}

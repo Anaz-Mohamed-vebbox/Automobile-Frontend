@@ -1,0 +1,62 @@
+.DashBoardComp-main{
+    display: flex;
+}
+
+.DashBoardComp-SubOne{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.DashBoardComp-Parent{
+    /* width: 100%; */
+    background-color: var(--secondary);
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+}
+.DashBoardComp-SubTwo{
+    background-color: var(--secondary);
+    height: 90vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DashBoardComp-TextField{
+    width: 70%;
+}
+
+.person-Dash{
+    height: 400px ;
+    width: 400px;
+  }
+
+
+@media only screen and (max-width: 800px) {
+
+    .DashBoardComp-main{
+        display: inline;
+    }
+
+    .DashBoardComp-SubOne{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .DashBoardComp-SubTwo{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .person-Dash{
+        height: 200px ;
+        width: 200px;
+      }
+  }
