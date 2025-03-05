@@ -13,7 +13,9 @@ const RegisterComp = () => {
   const [data, setData] = useState("");
   const [scanning, setScanning] = useState(false);
   const [manualEntry, setManualEntry] = useState(false);
-  const [Boolen, setBoolen] = useState(false)
+  const [Boolen, setBoolen] = useState(false);
+  const [message, setmessage] = useState(false);
+
 
   const keys = {
     ProductName: "",
@@ -41,14 +43,21 @@ const RegisterComp = () => {
     e.preventDefault();
     try {
       const response = await api("POST", Url.RegisterProduct, inputValue);
-      if (response.message === "Success") {
+      if (response.message == "Success") {
+    
+        
         setInputValue(keys);
         setData("");
-        alert("Dome")
-      } else if (response.message === "AlreadyExists") {
-        alert("Already Exists");
+        setBoolen(true)
+
+        setmessage("Success");
+      } 
+      else if (response.message === "AlreadyExists") {
+        setBoolen(true)
         setInputValue(keys);
         setData("");
+        setmessage("Already Exists");
+
       }
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -62,21 +71,23 @@ const RegisterComp = () => {
   };
 
   return (
-    <div>
-   
+    <div style={{position:"relative"}}>
+        <div className={Boolen ? "blur-class" : ""}>
+      
       <div className='DashBoardComp-Parent'>
         <Logout />
       </div>
+
       <div>
         <BreadCrum />
       </div>
 
-      <div className="RegisterComp-parent">
-        <div className="Barcode-div">
+      <div className="RegisterComp-parent mgt">
+        <div className="Barcode-div-two">
           {scanning && (
             <div>
-             <div className="RegisterComp-Center">
-             <button className="Close-Scanner mgt" onClick={() => setScanning(false)}>✖</button>
+              <div className="RegisterComp-Center">
+              <button className="Close-Scanner mgt" onClick={() => setScanning(false)}>✖</button>
               </div>  
           
               <div className="Scanner-Container">
@@ -91,7 +102,6 @@ const RegisterComp = () => {
                 }}
               />
               </div>
-
             </div>
           )}
         </div>
@@ -140,7 +150,7 @@ const RegisterComp = () => {
             </div>
           )}
 
-          <div className="RegisterComp-TextField mgt">
+          <div className="RegisterComp-TextField">
             <TextField
               inputData={inputData}
               inputValue={inputValue}
@@ -151,7 +161,11 @@ const RegisterComp = () => {
           </div>
         </div>
       </div>
+        </div>
+
+        {Boolen ==  true && <Success setBoolen={setBoolen} message={message}/>}
     </div>
+
   );
 };
 

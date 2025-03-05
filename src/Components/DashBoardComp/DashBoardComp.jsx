@@ -11,10 +11,9 @@ import { ThemeContext } from '../../App';
 import BreadCrum from '../../Common/BreadCrum/BreadCrum';
 const DashBoardComp = () => {
 
-  const {  setTheme,setAmount,setTableTwo } = useContext(ThemeContext); 
+  const {  setTheme,setTableTwo } = useContext(ThemeContext); 
 
   useEffect(()=>{
-    setAmount([]);
     setTableTwo([])
   },[])
 

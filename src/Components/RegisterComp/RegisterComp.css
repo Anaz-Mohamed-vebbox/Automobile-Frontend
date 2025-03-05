@@ -24,8 +24,8 @@
     border: 2px solid white;
     background-color: var(--white);
     box-shadow: 0px 0px 4px var(--lightgray);
-    padding: 5px 10px 5px 10px;
-
+    padding: 3px;
+    cursor: pointer;
 }
 
 .Scanner-btn-div{

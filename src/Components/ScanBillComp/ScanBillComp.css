@@ -1,8 +1,29 @@
+.scanBill-main{
+    background-color: var(--whiteSome);
+}
+.ScanBillComp-Invoice-btn{
+    display: flex;
+    justify-content: end;
+    width:92%;
+}
 .ScanBillComp-Parent{
     display: flex;
     width: 95%;
-    background-color: var(--lightblue);
-    height: 70px;
+    background-color: var(--lightrose);
+    height: 60px;
+    box-shadow: 0px 0px 5px var(--lightgray);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+.ScanBillComp-Parent-two{
+    display: flex;
+    width: 95%;
+    background-color: var(--lightrose);
+    height: 100px;
     box-shadow: 0px 0px 5px var(--lightgray);
     justify-content: space-between;
     align-items: center;
@@ -23,43 +44,87 @@
     margin-top: 7px;
 }
 .ScanBillComp-CustomerDetails{
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 3px;
 }
 .Button-blue{
     color:var(--white);
     background-color: var(--secondary);
     height: 40px;
-    width: 100%;
+    width: 200px;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
+    font-size: 17px;
 }
-
+.Button-blue-three{
+    color:var(--white);
+    background-color: var(--green);
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+}
+.Close-Scanner-div{
+    display: flex;
+    justify-content: end;
+    width: 95%;
+}
+.ScanBillComp-Button-btn{
+    display: flex;
+    justify-content: end;
+    width: 93%;
+    padding: 10px;
+}
 .ScanBillComp-SecondDiv{
     width: 25%;
     min-width: 350px;
-    padding: 10px;
+}
+.scan-bill-form{
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 .Barcode-div{
-    height: 230px;
+    height: 200px;
+    width: 300px;
+    box-shadow: 0px 0px 7px var(--lightgray);
+    margin: 1%;
+}
+.Barcode-div-two{
+    height: 200px;
     width: 230px;
+    box-shadow: 0px 0px 7px var(--lightgray);
+    margin: 1%;
 }
 .Barcode-scan-button-div{
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 5px;
 }
 .Barcode-scan-button{
-    border: 2px solid white;
-    background-color: var(--white);
-    box-shadow: 0px 0px 4px var(--lightgray);
-    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: var(--lightsecondary);
+    padding: 7px 10px 7px 10px;
     cursor: pointer;
+    color: var(--secondary);
+    border-radius: 5px;
 }
 
 .Scanner-Container{
+    display: flex;
+    justify-content: center;
+}
+.img-no-data{
+    height: 200px;
+    width: 220px;
+}
+.img-no-data-div{
     display: flex;
     justify-content: center;
 }
@@ -68,8 +133,17 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        width: 100%;
-        height: 130px;
+        width: 96%;
+        height: 150px;
+        background-color: var(--lightrose);
+
+    }
+    .ScanBillComp-Parent-two{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 95%;
+        height: 90px;
 
     }
 
@@ -78,8 +152,12 @@
 
 @media only screen and (max-width: 600px)  {
     .Barcode-div{
-        height: 270px;
-        width: 320px;
+        height: 160px;
+        width: 280px;
+    }
+    .Barcode-div-two{
+        height: 300px;
+        width: 310px;
     }
     
   

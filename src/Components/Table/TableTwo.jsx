@@ -60,7 +60,7 @@ const TableTwo = ({ data, onRowUpdate, onRowDelete }) => {
                 )}
               </td>
             ))}
-            <td>
+            <td style={{minWidth:"100px"}}>
               {editRow === rowIndex ? (
                 <button className="table-save-button" onClick={handleSave}>
                   Save

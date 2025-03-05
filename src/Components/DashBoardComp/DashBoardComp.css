@@ -12,9 +12,10 @@
 .DashBoardComp-Parent{
     /* width: 100%; */
     background-color: var(--secondary);
-    height: 10vh;
+    height: 13vh;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .DashBoardComp-SubTwo{
     background-color: var(--secondary);

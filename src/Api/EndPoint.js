@@ -1,9 +1,9 @@
-export const endPointUrl = "http://localhost/automobile-backend/automobile/admin/";
-export const ImgUrl = "http://localhost/automobile-backend/app/asset/";
-// export const endPointUrl =
-//   "https://vebbox.in/automobile-backend/automobile/admin/";
-// export const ImgUrl =
-//   "https://vebbox.in/automobile-backend/automobile/admin/";
+// export const endPointUrl = "http://localhost/automobile-backend-copy/automobile/admin/";
+// export const ImgUrl = "http://localhost/automobile-backend/app/asset/";
+export const endPointUrl =
+  "https://vebbox.in/automobile-backend/automobile/admin/";
+export const ImgUrl =
+  "https://vebbox.in/automobile-backend/automobile/admin/";
 
 export const Url = {
   verifyEmail:"verifyEmail.php",

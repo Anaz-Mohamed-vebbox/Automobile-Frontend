@@ -11,24 +11,79 @@
 
 }
 
+.InvoiceProcessComp{
+    background-color: var(--whiteSome);
+}
+.TextField-input-two {
+    height: 33px;
+    border: 0px solid white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px var(--lightgray);
+    width: 200px;
+    padding-left: 5px;
+    margin-left: 2px;
+    
+  }
+  .TextField-input-three{
+    height: 30px;
+    border: 0px solid white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px var(--lightgray);
+    width: 50px;
+    padding-left: 5px;
+    margin-left: 2px;
+    
+  }
+  .bottom-extra-class{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+.Invoice-input-div{
+    width: 95%;
+    display: flex;
+    justify-content: start;
+}
+.extra-style{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 45px;
+}
 .Button-blue-two{
     color:var(--white);
     background-color: var(--secondary);
     height: 40px;
     width: 120px;
     border-radius: 5px;
+    cursor:pointer;
+    border: none;
+    font-size: 17px;
 }
 .InvoiceProcessComp-completed-btn{
     width: 97%;
+    height: 120px;
     display: flex;
     justify-content: end;
-    margin: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.btn-three-style{
+    display: flex;
+    justify-content: end;
+    padding:7px;
+}
+.large{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
 }
 .Download-Icon{
     background-color: var(--secondary);
     border: 2px solid white;
     padding: 6px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .Download-div{
     display: flex;
@@ -38,8 +93,28 @@
 }
 @media only screen and (max-width: 600px) {
     .InvoiceProcessComp-Down{
-        height: 150px;
+        height: 140px;
         display: inline;
         text-align: center;
+        margin-top: 4px;
     }
+    .InvoiceProcessComp-completed-btn{
+        width: 97%;
+        display: flex;
+        justify-content: end;
+        height: 0px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+  }
+
+
+
+
+  @media only screen and (max-width: 700px) {
+ 
+    .bottom-extra-class{
+        display: flex;
+        width: 100%;
+      }
   }

@@ -1,7 +1,16 @@
 .Blue-text{
     color:var(--secondary);
-    /* font-size: 17px; */
+    font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: start;
+    font-weight: 700;
+
+}
+.Blue-text-two{
+    color:var(--secondary);
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
 }
 
 .CustomerDetails-Main{
@@ -20,6 +29,7 @@
     border: 2px solid var(--white);
     box-shadow: 0px 0px 4px var(--lightgray);
     text-align: end;
+    height: 30px;
 }
 
 
@@ -34,6 +44,13 @@
         color:var(--secondary);
         font-size: 15px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: start;
+    }
+    .Blue-text-two{
+        color:var(--secondary);
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 5px;
     }
     .Span-text{
         color: var(--grey);

@@ -1,20 +1,31 @@
 :root{
     --primary:#37393D;
-    --secondary:#133E87;
-    --blue:#897CF7;
+    --secondary:#ff5200;
+    --lightsecondary:#ffeae0;
+    -- :#897CF7;
     --lightgreen:#1EC6CB;
     --grey:grey;
     --white:#fff;
     --lightgray:rgb(199, 195, 195);
     --lightsandle:#FFF9F5;
     --whiteSome:whitesmoke;
-    --green:rgb(0, 244, 0);
+    --green:rgb(0, 165, 0);
     --red:red;
-    --lightblue:#F8FCFF
+    --lightblue:#F8FCFF;
+    --thickblue:rgb(17, 0, 100);
+    --lightrose:#fbe4da;
 }
 * {
   margin: 0px;
   padding: 0px;
+}
+
+.App-Parent{
+  background-color: var(--whiteSome);
+  height: 100vh;
+}
+*::-webkit-scrollbar{
+  /* display: none; */
 }
 
 .tableScroll-container{
@@ -23,7 +34,7 @@
 }
 
 .tableScroll-container::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }
 
 .mgl{
@@ -31,7 +42,7 @@
 }
 
 .ViewAgentComponent-Table-Div{
-  height: 70vh;
+  height: 60vh;
   width: 70%;
   overflow: scroll;
 }
@@ -39,7 +50,7 @@
 
 
 .Component-Table-Div{
-  height: 45vh;
+  height: 53vh;
   width: 95%;
   overflow: scroll;
 }
@@ -49,10 +60,10 @@
   justify-content: center;
 }
 .ViewAgentComponent-Table-Div::-webkit-scrollbar{
-  display: none;
+  /* display: none; */
 }
 .Component-Table-Div::-webkit-scrollbar{
-  display: none;
+  /* display: none; */
 }
 
 .flex{
@@ -79,21 +90,38 @@
   margin-top: 5px;
   justify-content: center;
 }
+.blur-class{
+  filter: blur(5px);
+}
 
 @media only screen and (max-width: 600px) {
   .ViewAgentComponent-Table-Div{
-      height: 50vh;
+      height: 31vh;
       width: 83vw;
       overflow: scroll;
   }
   .Component-Table-Div{
-    height: 40vh;
+    height: 34vh;
     width: 95%;
     overflow: scroll;
     }
   .InvoiceProcessComp-Down-main{
     margin-top: 5px;
   }
+
+}
+
+@media only screen and (min-width: 600px) {
+ 
+  .ViewAgentComponent-Table-Div::-webkit-scrollbar{
+    display: none;
+  }
+  .Component-Table-Div::-webkit-scrollbar{
+    display: none;
+  }
+  .tableScroll-container::-webkit-scrollbar {
+    display: none;
+  } 
 }
 
 

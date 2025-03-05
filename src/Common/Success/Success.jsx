@@ -1,9 +1,14 @@
 import React from 'react'
 import "./Success.css"
-const Success = () => {
+const Success = ({setBoolen,message}) => {
   return (
     <div className='Success-div'>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique illum voluptate error itaque consequatur esse repellat, harum sint odio maxime cumque quidem excepturi ullam tenetur ipsam. Hic voluptates impedit temporibus!
+     <div className='Success-para'>
+     <p>{message}</p>
+     </div>
+      <div className='Success-button-container'> 
+        <button onClick={()=>{setBoolen(false)}} className='Success-button'>ok</button>
+      </div>
     </div>
   )
 }

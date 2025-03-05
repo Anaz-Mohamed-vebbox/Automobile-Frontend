@@ -76,17 +76,17 @@ export const LoginScreen = () => {
           <div  className="content">
             <div className="left">
               <span className="top">
-                <h2>Log in to your Account</h2>
-                <Paragraph
+                <h2 className="Login-h1">Log in to your Account</h2>
+                {/* <Paragraph
                   text="Welcome back! Select method to log in"
                   className="top_text"
-                />
+                /> */}
               </span>
               <form>
                 <div className="input">
                   <span className="ic_box">
-                    <MailIcon className="ic" />
-                    <Paragraph text="Email" />
+                    {/* <MailIcon className="ic" />
+                    <Paragraph text="Email" /> */}
                   </span>
                   <Input
                     type="email"
@@ -99,8 +99,8 @@ export const LoginScreen = () => {
                 </div>
                 <div className="input">
                   <span className="ic_box">
-                    <LockIcon className="ic" />
-                    <Paragraph text="Password" />
+                    {/* <LockIcon className="ic" />
+                    <Paragraph text="Password" /> */}
                   </span>
                   <Input
                     type="password"

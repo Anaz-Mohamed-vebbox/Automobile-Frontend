@@ -7,25 +7,13 @@ const Logout = () => {
 
     const Navigate = useNavigate();
 
-    const typographyStyles = {
-    color: "#133E87",
-    fontSize: "15px",
-    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-  };
+
   
   return (
-    <div className="Logout-Button">
-          <Typography
-            sx={typographyStyles}
-            variant="h6"
-            noWrap
-            component="div"
-            className="Logoutbtn"
-            onClick={() => {
-              localStorage.clear(), Navigate(Path.home);
-            }}>
+    <div className="Logout-Button"  onClick={() => {
+      localStorage.clear(), Navigate(Path.home);
+    }}>
             Logout
-          </Typography>
     </div>
   )
 }
